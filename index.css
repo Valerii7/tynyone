@@ -1,0 +1,218 @@
+/* Спецификация */
+body
+{
+    font-family: 'PT Sans', sans-serif;
+
+}
+ul,li
+{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5
+{
+    font-weight: 700;
+    color: #000000;
+}
+h3
+{
+    font-weight: 400;
+}
+h2
+{
+    text-align: center;
+}
+.title
+{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.title-main
+{
+font-style: 32px;
+}
+.title-text
+{
+font-style: 20px;
+width: 710px;
+margin: 0 auto;
+}
+.yellow
+{
+   color: #fcdb00;
+}
+/* Первый экран */
+.header
+{
+    background: #fcdb00;
+    color:#010101;
+    padding-top: 58px;
+    padding-bottom: 105px;
+}
+.menu
+{
+margin-top: 10px;
+}
+.menu-item
+{
+margin: 0 57px;
+}
+.menu-item a
+{
+    font-style: 22px;
+    font-weight: 700;
+    color: #000;
+}
+.offer
+{
+margin-top: 117px;
+}
+.offer-title
+{
+    font-style: 32px;
+    margin-bottom: 6px;
+}
+.offer-intro
+{
+    font-style: 20px;
+    line-height: 1.3em;
+}
+.offer-text
+{
+    font-style: 16px;
+    margin-top: 10px;
+    color: #555555;
+    width: 400px;
+}
+.icons-item
+{
+    margin-right: 30px;
+}
+.icons-item a
+{
+    color:#000;
+    font-size:42px;
+    margin-top: 42px;
+}
+.ipad
+{
+    display: block;
+    margin: 60px auto 0;
+}
+/* Второй экран */
+.feature
+{
+    margin-bottom: 65px;
+}
+.feature-icon
+{
+    font-size: 50px;
+    margin-right: 37px;
+    color:#000;
+}
+.feature-text
+{
+    color:#555555;
+}
+/*  */
+.touch
+{
+color: white;
+background: #010101;
+}
+.form
+{
+text-align: center;
+}
+.form-input
+{
+background: white;
+font-size:16xp;
+border-radius: 5px;
+width: 580px;
+padding: 13px 0;
+border:0;
+margin-right: 10px;
+outline: none;
+}
+.form-btn
+{
+background: yellow;
+color:#000;
+font-weight: 700;
+font-size: 16px;
+border-radius: 5px;
+width: 126px;
+border:0;
+padding: 13px 0;
+cursor: pointer;
+outline: none;
+}
+/*  */
+.footer
+{
+background: #000;
+}
+.block-inner
+{
+color: white;
+font-style: 16px;
+text-align: center;
+padding: 50px 94px;
+
+}
+/* медиа-запросы */
+@media screen and (max-width:992px)
+{
+    .logo
+    {
+        display: block;
+        margin: 30px auto;
+    }
+    .offer
+    {
+        text-align: center;
+    }
+    .offer-text
+    {
+        margin:20px auto;
+        width:auto;
+    }
+    .icons
+    {
+        justify-content: center;
+    }
+    .form-input
+    {
+        margin-right: 0;
+        width: 100%;
+    }
+    .form-btn
+    {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .title-text
+    {
+        width: auto;
+    }
+    
+}
+@media screen and (max-width:576px)
+{
+    .ipad
+    {
+        width: 100%;
+    }
+    .menu
+    {
+        flex-direction: column;
+    }
+    .menu-item
+    {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
